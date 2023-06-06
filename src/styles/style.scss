@@ -1256,7 +1256,7 @@ form * {
 		}
 
 		input {
-			width: 284px;
+			width: 240px;
 			height: 61px;
 			border: 1px solid #001049;
 			border-radius: 10px;
@@ -1271,7 +1271,7 @@ form * {
 
 			@media (max-width: 992px) {
 				& {
-					width: 80%;
+					width: 70%;
 					height: 48px;
 				}
 			}
@@ -1287,7 +1287,6 @@ form * {
 			@include btn(19px, 42px);
 			outline: none;
 			border: none;
-			margin-left: -44px;
 			z-index: 6;
 
 			@media (max-width: 992px) {
@@ -1295,12 +1294,6 @@ form * {
 					@include btn(12px, 42px);
 					height: 48px;
 					margin-left: 0;
-				}
-			}
-
-			@media (max-width: 768px) {
-				& {
-					margin-left: -84px;
 				}
 			}
 		}
